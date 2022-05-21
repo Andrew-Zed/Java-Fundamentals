@@ -2,7 +2,7 @@ package com.andrew.contructorChallenge;
 
 public class Main {
     public static void main(String[] args) {
-    Account paulsAccount = new Account("12345", 0.00, "Paul Smith", "paul@gmail.com", "(234) 8029886644");
+    Account paulsAccount = new Account(); //("12345", 0.00, "Paul Smith", "paul@gmail.com", "(234) 8029886644");
 
         System.out.println(paulsAccount.getCustomerName());
         System.out.println(paulsAccount.getCustomerEmailAddress());
