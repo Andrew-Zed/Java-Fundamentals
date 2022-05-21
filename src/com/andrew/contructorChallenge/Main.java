@@ -15,8 +15,14 @@ public class Main {
     paulsAccount.deposit(1000);
     paulsAccount.withdrawal(500);
 
-//    paulsAccount.getBalance();
-//        System.out.println(paulsAccount.getBalance() + " =======");
-//        System.out.println(paulsAccount.getCustomerName() + " name ===>");
+        VipPerson person1 = new VipPerson();
+        System.out.println(person1.getName());
+
+        VipPerson person2 = new VipPerson("Bob ", 2500);
+        System.out.println(person2.getName());
+
+        VipPerson person3 = new VipPerson("Andy", 300, "andy@gmail.com");
+        System.out.println(person3.getName());
+        System.out.println(person3.getEmailAddress());
     }
 }
