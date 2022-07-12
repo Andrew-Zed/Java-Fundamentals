@@ -1,4 +1,4 @@
-package polymorphism;
+package com.andrew.polymorphism;
 
 public class Polymorphism {
     public static void main(String[] args) {

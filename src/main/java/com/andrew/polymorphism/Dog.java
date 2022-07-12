@@ -1,4 +1,4 @@
-package polymorphism;
+package com.andrew.polymorphism;
 
 public class Dog extends Animal {
     private int breed;

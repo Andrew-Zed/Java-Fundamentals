@@ -1,4 +1,4 @@
-package polymorphism;
+package com.andrew.polymorphism;
 
 public class Cat extends Animal {
     private String litterPreference;
